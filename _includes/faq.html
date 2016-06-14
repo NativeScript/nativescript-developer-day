@@ -1,0 +1,39 @@
+{% for page in site.pages %}
+    {% if page.title == "FAQ" %}
+        {% assign thispage = page %}
+    {% endif %}
+{% endfor%}
+<section id="{{thispage.title | slugify}}" class="section faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">{{thispage.title}}</h3>
+                {{thispage.content | markdownify}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    {% for faq in site.data.faq %}
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="true"
+                                   aria-controls="collapse{{forloop.index}}">{{ faq.question }}</a>
+                            </h4>
+                        </div>
+
+                        <div id="collapse{{forloop.index}}" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <p>{{ faq.answer }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

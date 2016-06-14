@@ -1,0 +1,41 @@
+{% for page in site.pages %}
+    {% if page.title == "Speakers" %}
+        {% assign thispage = page %}
+    {% endif %}
+{% endfor%}
+<section id="{{thispage.title | slugify}}" class="section speakers">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h3 class="section-title">{{ thispage.title }}</h3>
+                {{thispage.content | markdownify }}
+
+            </div>
+        </div>
+
+        <div class="row">
+            {% for speaker in site.data.speakers %}
+            <div class="col-md-4 col-sm-4">
+                <div class="speaker">
+
+                    <figure>
+                        <img alt="" class="img-responsive center-block" src="assets/images/speakers/{{speaker.photo}}">
+                    </figure>
+
+                    <h4>{{speaker.name}}</h4>
+
+                    <div class="speaker-bio"><p>{{speaker.bio}}</p></div>
+
+                    <ul class="social-block">
+                        <li><a href="https://twitter.com/{{speaker.twitter}}"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://github.com/{{speaker.github}}"><i class="ion-social-github"></i></a></li>
+                        <li><a href="{{speaker.website}}"><i class="ion-earth"></i></a></li>
+                    </ul>
+
+                </div><!-- /.speaker -->
+            </div><!-- /.col-md-4 -->
+            {% endfor %}
+        </div>
+    </div>
+</section>

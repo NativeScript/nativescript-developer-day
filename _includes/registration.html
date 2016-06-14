@@ -1,0 +1,15 @@
+{% for page in site.pages %}
+    {% if page.title == "Registration" %}
+        {% assign thispage = page %}
+    {% endif %}
+{% endfor%}
+<section id="registration" class="section registration">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">{{ thispage.title }}</h3>
+            </div>
+        </div>
+           {{ thispage.content }}
+    </div>
+</section>

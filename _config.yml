@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: NativeScript Developer Day 2016
+email: brian.rinaldi@telerik.com
+event_dates: September 19-20, 2016
+event_city: Boston
+event_tagline: One Day—NativeScript. Angular. JavaScript. Mobile.
+description: > # this means to ignore newlines until "baseurl:"
+  The first-ever community event focused exclusively on mobile development
+  with JavaScript using the open source NativeScript framework.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://developerday.nativescript.org" # the base hostname & protocol for your site
+twitter_username: nativescript
+github_username:  nativescript
+
+# Build settings
+markdown: kramdown

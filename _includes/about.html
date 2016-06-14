@@ -1,0 +1,35 @@
+{% for page in site.pages %}
+    {% if page.title == "About" %}
+        {% assign thispage = page %}
+    {% endif %}
+{% endfor%}
+<section id="{{thispage.title | slugify}}" class="section about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <!--<h3 class="section-title">{{ thispage.title }}</h3>-->
+
+                {{thispage.content | markdownify }}
+            </div><!-- /.col-sm-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>
+
+<section id="facts" class="bg-image-1 facts text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>2016<br>September 19-20</h3>
+            </div>
+            <div class="col-sm-3">
+                <h3>Boston<br>USA</h3>
+            </div>
+            <div class="col-sm-3">
+                <h3>Full Day<br>Workshop</h3>
+            </div>
+            <div class="col-sm-3">
+                <h3>10+<br>Speakers</h3>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+</section>

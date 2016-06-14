@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body data-spy="scroll">
+<div id="home"></div>
+<nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+    <div class="container">
+        <div class="navbar-header">
+
+            <!-- logo -->
+            <div class="site-branding">
+                <a class="logo" href="index.html">
+                    <!-- logo image  -->
+                    <img src="assets/images/logo.png" alt="Logo">
+                    Developer Day - Boston 2016
+                </a>
+            </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div><!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="nav navbar-nav navbar-right">
+
+                <!-- navigation menu -->
+                {% assign pages = site.pages | sort:"weight"  %}
+                {% for page in pages %}
+                    {% if page.title %}
+                <li><a href="#{{page.title | slugify}}">{{page.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div><!-- /.container -->
+</nav>
+
+<header id="site-header" class="site-header valign-center">
+    <div class="intro">
+
+        <h2>{{ site.event_dates }} / {{ site.event_city }}</h2>
+
+        <h1>{{ site.title }}</h1>
+
+        <p>{{ site.event_tagline }}</p>
+
+        <a class="btn btn-white inpage" href="#speakers">View Speakers</a>
+
+    </div>
+</header>
+
+<div id="countdown" class="countdown">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <h3 class="section-title">Event Start</h3>
+            </div>
+            <div class="col-md-10">
+                <div id="defaultCountdown"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include about.html %}
+
+{% include speakers.html %}
+
+{% include schedule.html %}
+
+{% include registration.html %}
+
+{% include sponsors.html %}
+
+{% include faq.html %}
+
+{% include location.html %}
+
+{% include conduct.html %}
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="site-info">Organized by <a href="https://www.progress.com/">Progress Software</a></p>
+                <ul class="social-block">
+                    <li><a href="https://twitter.com/{{site.twitter_username}}"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="https://github.com/{{site.twitter_username}}"><i class="ion-social-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- script -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/countdown/jquery.plugin.min.js"></script>
+<script src="bower_components/countdown/jquery.countdown.min.js"></script>
+<script src="bower_components/nivo-lightbox/nivo-lightbox.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

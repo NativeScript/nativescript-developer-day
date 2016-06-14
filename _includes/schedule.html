@@ -1,0 +1,70 @@
+{% for page in site.pages %}
+    {% if page.title == "Schedule" %}
+        {% assign thispage = page %}
+    {% endif %}
+{% endfor%}
+<section id="{{thispage.title | slugify}}" class="section schedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">{{ thispage.title }}</h3>
+                {{thispage.content | markdownify }}
+            </div>
+        </div>
+        <div class="outer-tabs">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs schedule_tabs" role="tablist">
+                {% for days in site.data.schedule %}
+                <li role="presentation">
+                    <a href="#{{ days.header | replace: ' ', '-' }}" aria-controls="{{ days.header | replace: ' ', '-' }}" role="tab" data-toggle="tab">
+                        {{days.header}}<br><span>{{days.date}}</span>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+            {% for days in site.data.schedule %}
+                <div role="tabpanel" class="tab-pane in{% if forloop.index == 1 %} active{% endif %}" id="{{ days.header | replace: ' ', '-' }}">
+                    {% for session in days.details %}
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            {% if session.speakers %}
+                            <div class="speakers">
+                                {% for speaker in session.speakers %}
+                                    {% for speaker_deets in site.data.speakers %}
+                                        {% if speaker_deets.name == speaker.name %}
+                                <img src="assets/images/thum_s/{{ speaker_deets.photo }}" alt="{{ speaker_deets.name }}" class="thum-s" data-toggle="tooltip" data-placement="top" title="{{ speaker_deets.name }}" ">
+                                        {% endif %}
+                                     {% endfor %}
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            <div class="time"><span class="ion-clock"></span> {{ session.start_time }}</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand collapsed" href="#">
+                                    <div class="full-width">
+                                        {{ session.title }}
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        {% if session.description  %}
+                        <div class="panel-collapse collapse in" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                {{ session.description }}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</section>

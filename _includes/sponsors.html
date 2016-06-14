@@ -1,0 +1,25 @@
+{% for page in site.pages %}
+    {% if page.title == "Sponsors" %}
+        {% assign thispage = page %}
+    {% endif %}
+{% endfor%}
+<section id="{{thispage.title | slugify}}" class="section sponsorship">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">{{ thispage.title }}</h3>
+                {{ thispage.content | markdownify }}
+            </div>
+        </div>
+        <div class="sponsors">
+            <div class="row">
+                {% for sponsor in site.data.sponsors %}
+                <div class="col-md-4">
+                    <a href="{{ sponsor.url }}"><img src="assets/images/sponsor/{{ sponsor.photo }}" alt="" class="img-responsive"></a>
+                    <a href="{{ sponsor.url }}"><h5 class="sponsor-caption">{{ sponsor.name }}</h5></a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
