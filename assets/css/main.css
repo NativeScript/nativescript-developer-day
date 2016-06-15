@@ -506,16 +506,14 @@ td{
     border-bottom-color: transparent;
 }
 .nav-tabs>li{
-    width: 33.3333333333%;
-}
-.nav-tabs>li>a {
+    width: 100%;
     border-radius: 0;
     text-transform: uppercase;
-    text-align: center;
     border: 1px solid #ededed;
     margin-right: 0;
     padding: 15px;
-    background-color: #f5f5f5;
+    background-color: #000;
+    color: #FFF;
     transition: all 0.2s ease-in-out;
 }
 .inner-tabs .nav-tabs>li>a{
@@ -550,16 +548,22 @@ a:focus, a:hover{
 }
 .full-width:after{
     position: absolute;
-    content: "\f3d8";
+    content: "\f3d0";
     right: 0;
     font-family: 'Ionicons';
     color: #000;
     transition: all 0.2s ease-in-out;
 }
-.collapsed>.full-width:after{
+.collapsed .full-width:after{
     -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
+}
+a:hover .schedule_item {
+    background-color: #CCC;
+}
+a .schedule_item {
+    color: #000;
 }
 .panel{
     background-color: transparent;

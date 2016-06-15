@@ -11,24 +11,21 @@
                 {{thispage.content | markdownify }}
             </div>
         </div>
+        {% for days in site.data.schedule %}
         <div class="outer-tabs">
 
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs schedule_tabs" role="tablist">
-                {% for days in site.data.schedule %}
-                <li role="presentation">
-                    <a href="#{{ days.header | replace: ' ', '-' }}" aria-controls="{{ days.header | replace: ' ', '-' }}" role="tab" data-toggle="tab">
-                        {{days.header}}<br><span>{{days.date}}</span>
-                    </a>
+            <ul class="nav nav-tabs schedule_tabs">
+                
+                <li>{{days.header}}<br><span>{{days.date}}</span></a>
                 </li>
-                {% endfor %}
             </ul>
 
             <!-- Tab panes -->
             <div class="tab-content">
-            {% for days in site.data.schedule %}
-                <div role="tabpanel" class="tab-pane in{% if forloop.index == 1 %} active{% endif %}" id="{{ days.header | replace: ' ', '-' }}">
+                <div class="tab-pane in active">
                     {% for session in days.details %}
+                    {% if session.description  %}<a class="schedule_expand collapsed" href="#">{% endif %}
                     <div class="schedule_item">
                         <div class="panel-heading">
                             {% if session.speakers %}
@@ -45,11 +42,9 @@
                             <div class="time"><span class="ion-clock"></span> {{ session.start_time }}</div>
                             <h4 class="panel-title">
                                 {% if session.description  %}
-                                <a class="schedule_expand collapsed" href="#">
                                     <div class="full-width">
                                         {{ session.title }}
                                     </div>
-                                </a>
                                 {% else %}
                                     <div class="full-width-noicon">
                                         {{ session.title }}
@@ -58,7 +53,7 @@
                             </h4>
                         </div>
                         {% if session.description  %}
-                        <div class="panel-collapse collapse in" role="tabpanel"
+                        <div class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="heading-1">
                             <div class="panel-body">
                                 {{ session.description }}
@@ -66,11 +61,12 @@
                         </div>
                         {% endif %}
                     </div>
+                    {% if session.description  %}</a>{% endif %}
                     {% endfor %}
                 </div>
-            {% endfor %}
             </div>
 
         </div>
+        {% endfor %}
     </div>
 </section>
