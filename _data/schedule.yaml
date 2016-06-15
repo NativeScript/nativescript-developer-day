@@ -3,17 +3,20 @@
     details:
     -   title: "Registration Opens"
         start_time: "8:00am"
-    -   title: "NativeScript Workshop (Part 1)"
-        start_time: "9:00am"
-        description: "Details coming soon"
+    -   title: "Building Native Apps With NativeScript and Angular 2 (Part 1)"
+        start_time: "9:00am–12:00pm"
+        description: >
+            NativeScript is a free and open-source runtime for building native apps using familiar tools—Angular, JavaScript/TypeScript, CSS, and npm. NativeScript renders truly native user interfaces—giving your users the best performance and UX their devices can offer.<br><br>
+            In this workshop you’ll learn what NativeScript is, how it works, and how to use the framework to build iOS and Android apps. You’ll also learn about TypeScript and Angular 2 from the ground up, as NativeScript builds on top of these two technologies. The workshop is hands-on; therefore, if possible, come with <a href="http://docs.nativescript.org/angular/start/quick-setup.html">NativeScript installed</a> on your development machine and ready to go.<br><br>
+            Come learn how to build native apps with NativeScript and Angular 2!
         speakers: 
             - name: "Jen Looper"
             - name: "TJ VanToll"
     -   title: "Lunch"
         start_time: "12:00pm"
-    -   title: "NativeScript Workshop (Part 2)"
-        start_time: "1:00pm-4pm"
-        description: "Details coming soon"
+    -   title: "Building Native Apps With NativeScript and Angular 2 (Part 2)"
+        start_time: "1:00pm-4:00pm"
+        description: "After lunch we’ll complete and hands-on workshop. At the end you’ll have a fully functional iOS and Android app you can show your friends and coworkers."
         speakers: 
             - name: "Jen Looper"
             - name: "TJ VanToll"
