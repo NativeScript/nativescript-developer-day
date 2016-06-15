@@ -44,11 +44,17 @@
                             {% endif %}
                             <div class="time"><span class="ion-clock"></span> {{ session.start_time }}</div>
                             <h4 class="panel-title">
+                                {% if session.description  %}
                                 <a class="schedule_expand collapsed" href="#">
                                     <div class="full-width">
                                         {{ session.title }}
                                     </div>
                                 </a>
+                                {% else %}
+                                    <div class="full-width-noicon">
+                                        {{ session.title }}
+                                    </div>
+                                {% endif %}
                             </h4>
                         </div>
                         {% if session.description  %}
