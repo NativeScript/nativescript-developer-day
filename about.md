@@ -9,7 +9,7 @@ layout: page
 
 NativeScript Developer Day is the first-ever dedicated event for NativeScript developers. Hosted in Boston, NativeScript Developer Day is a full-day event for learning about NativeScript, Angular, and mobile from the best and brightest in the NativeScript community. Whether you’re a beginner curious about NativeScript or a seasoned mobile developer, NativeScript Developer Day has speakers and sessions for you.
 
-#### What is NativeScript?
+### What is NativeScript?
 
 [NativeScript](https://www.nativescript.org) is an open source framework for building truly native mobile apps with JavaScript. You can web skills—like JavaScript/TypeScript, Angular, and CSS—and build apps with native UI and performance on iOS and Android.
 
