@@ -4,43 +4,22 @@ weight: 4
 layout: page
 ---
 
-<form action="php/registration.php" id="registration_form" method="post">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname"
-                                required>
-                    </div> <!-- /.form-group -->
-                </div> <!-- /.col-sm-6 -->
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname"
-                                required>
-                    </div> <!-- /.form-group -->
-                </div> <!-- /.col-sm-6 -->
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email" name="email"
-                                required>
-                    </div> <!-- /.form-group -->
-                </div> <!-- /.col-sm-6 -->
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input type="number" class="form-control" placeholder="Age" name="age"
-                                required>
-                    </div> <!-- /.form-group -->
-                </div> <!-- /.col-sm-6 -->
-                <div class="col-sm-12">
-                    <div class="form-group">
-                        <textarea class="form-control" rows="6" placeholder="Message" name="message"></textarea>
-                    </div> <!-- /.form-group -->
-                </div> <!-- /.col-sm-12 -->
-                <div class="text-center mt20 col-sm-6 col-sm-offset-3">
-                    <button type="submit" class="btn btn-black" id="rfsubmit">Submit</button>
-                </div>
-            </div> <!-- /.row -->
-        </div> <!-- /.col-md-10.col-md-offset-1 -->
-    </div>
-</form>
+<div id="wufoo-z170bjsu0w3tf8t">
+Fill out my <a href="https://telerikdevelopernetwork.wufoo.com/forms/z170bjsu0w3tf8t">online form</a>.
+</div>
+<script type="text/javascript">var z170bjsu0w3tf8t;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'telerikdevelopernetwork',
+'formHash':'z170bjsu0w3tf8t',
+'autoResize':true,
+'height':'340',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z170bjsu0w3tf8t = new WufooForm();z170bjsu0w3tf8t.initialize(options);z170bjsu0w3tf8t.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>

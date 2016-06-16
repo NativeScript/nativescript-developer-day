@@ -559,8 +559,12 @@ a:focus, a:hover{
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
 }
-a:hover .schedule_item {
+.collapsed {
+    cursor: pointer;
+}
+span:hover .schedule_item {
     background-color: #CCC;
+    cursor: pointer;
 }
 a .schedule_item {
     color: #000;

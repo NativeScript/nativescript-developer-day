@@ -7,7 +7,7 @@
         start_time: "9:00am–12:00pm"
         description: >
             NativeScript is a free and open-source runtime for building native apps using familiar tools—Angular, JavaScript/TypeScript, CSS, and npm. NativeScript renders truly native user interfaces—giving your users the best performance and UX their devices can offer.<br><br>
-            In this workshop you’ll learn what NativeScript is, how it works, and how to use the framework to build iOS and Android apps. You’ll also learn about TypeScript and Angular 2 from the ground up, as NativeScript builds on top of these two technologies. The workshop is hands-on; therefore, if possible, come with NativeScript installed on your development machine and ready to go.<br><br>
+            In this workshop you’ll learn what NativeScript is, how it works, and how to use the framework to build iOS and Android apps. You’ll also learn about TypeScript and Angular 2 from the ground up, as NativeScript builds on top of these two technologies. The workshop is hands-on; therefore, if possible, come with [NativeScript installed](http://docs.nativescript.org/angular/start/quick-setup.html) on your development machine and ready to go.<br><br>
             Come learn how to build native apps with NativeScript and Angular 2!
         speakers: 
             - name: "Jen Looper"
