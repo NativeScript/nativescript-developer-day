@@ -64,32 +64,37 @@
         description: "Details coming soon"
         speakers: 
             - name: "TBD"
-    -   title: "Session"
+    -   title: "Going into Battle with NativeScript Angular: A Real World Case Study"
         start_time: "1:30pm"
-        description: "Details coming soon"
+        description: "A fun app idea sparked prompted me to go into battle armed with nothing more than NativeScript Angular. I was pleasantly surprised at how smooth the development experience was but there were a lot of lessons learned. We’ll discuss some takeaways from this real world app development."
         speakers: 
-            - name: "TBD"
+            - name: "Nathan Walker"
     -   title: "Session"
         start_time: "2:00pm"
         description: "Details coming soon"
         speakers: 
             - name: "TBD"
-    -   title: "Session"
+    -   title: "Rapidly Building Node APIs for your NativeScript App"
         start_time: "2:30pm"
-        description: "Details coming soon"
+        description: "Raymond will introduce the open source LoopBack framework and show how it allows you to  rapidly prototype REST APIs for NativeScript Mobile apps using a simple model-first framework."
         speakers: 
-            - name: "TBD"
+            - name: "Raymond Camden"
     -   title: "Afternoon Break"
         start_time: "3:00pm"
-    -   title: "Session"
+    -   title: "Resilient Apps with Angular 2"
         start_time: "3:15pm"
+        description: "A well-designed app should be resilient enough to withstand the loss of one or more resources break or are not available. In this talk, we’ll look into the process of designing and implementing production ready resilient apps with Angular 2, TypeScript, and Redux that treat offline as the norm using NativeScript to detect device & network capabilities."
+        speakers: 
+            - name: "Giorgio Natili"
+    -   title: "Session"
+        start_time: "3:45pm"
         description: "Details coming soon"
         speakers: 
             - name: "TBD"
     -   title: "Closing Keynote"
-        start_time: "3:45pm"
+        start_time: "3:45"
         description: "Details coming soon"
-        speakers: 
+        spakers:
             - name: "TBD"
     -   title: "Social Event"
         start_time: "5:00pm-7:00pm"
