@@ -86,15 +86,15 @@
         description: "A well-designed app should be resilient enough to withstand the loss of one or more resources break or are not available. In this talk, we’ll look into the process of designing and implementing production ready resilient apps with Angular 2, TypeScript, and Redux that treat offline as the norm using NativeScript to detect device & network capabilities."
         speakers: 
             - name: "Giorgio Natili"
-    -   title: "Session"
+    -   title: "Unit Testing for NativeScript"
         start_time: "3:45pm"
-        description: "Details coming soon"
+        description: "How to setup, configure your unit testing for both running on a device and on CI servers.   We will walk through the configuration, tools and several examples to  get you up and testing in no time."
         speakers: 
-            - name: "TBD"
+            - name: "Nathanael J. Anderson"
     -   title: "Closing Keynote"
         start_time: "3:45"
         description: "Details coming soon"
-        spakers:
+        speakers:
             - name: "TBD"
     -   title: "Social Event"
         start_time: "5:00pm-7:00pm"

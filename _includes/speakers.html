@@ -25,7 +25,7 @@
 
                     <h4>{{speaker.name}}</h4>
 
-                    <div class="speaker-bio"><p>{{speaker.bio}}</p></div>
+                    <div class="speaker-bio"><p>{{speaker.bio | markdownify}}</p></div>
 
                     <ul class="social-block">
                         <li><a href="https://twitter.com/{{speaker.twitter}}"><i class="ion-social-twitter"></i></a></li>
