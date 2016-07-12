@@ -30,11 +30,12 @@
         description: "Details coming soon"
         speakers: 
             - name: "Burke Holland"
-    -   title: "Session"
+    -   title: "The Latest and Greatest in NativeScript"
         start_time: "9:45am"
-        description: "Details coming soon"
+        description: "In this session, TJ and Jen will demo and discuss the latest and greatest features in NativeScript, and how to use them to make your next app more awesome"
         speakers: 
-            - name: "TBD"
+            - name: "TJ VanToll"
+            - name: "Jen Looper"
     -   title: "Morning Break"
         start_time: "10:15am"
     -   title: "Session"
