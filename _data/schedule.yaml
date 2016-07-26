@@ -30,6 +30,7 @@
         description: "Details coming soon"
         speakers: 
             - name: "Burke Holland"
+            - name: "Todd Anglin"
     -   title: "The Latest and Greatest in NativeScript"
         start_time: "9:45am"
         description: "In this session, TJ and Jen will demo and discuss the latest and greatest features in NativeScript, and how to use them to make your next app more awesome"
@@ -42,7 +43,7 @@
         start_time: "10:30am"
         description: "Details coming soon"
         speakers: 
-            - name: "TBD"
+            - name: "Nick van Weerdenburg"
     -   title: "Angular Universal Tooling"
         start_time: "11:00am"
         description: "With great power comes great…complexity? You can do so many new and amazing things with Angular 2 that just aren't feasible with Angular 1, but the tool chain required to get it all working can be daunting. The mental hurdles to overcome can be even worse when you add Angular Universal to the mix and have to consider running your app on multiple platforms (i.e. in the browser, on the web server and on a mobile device). Fortunately, the Angular core team and many Angular 2 libraries (including Angular Universal) have started to place a much bigger emphasis on the CLI and simplifying the tool chain in order to make setup and maintenance much easier. In this talk, Jeff will go over how to set up a new Universal app using all this good stuff and discuss several supporting services that you should be using when you want to run your Angular 2 app in multiple environments."
