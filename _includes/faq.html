@@ -27,7 +27,7 @@
                         <div id="collapse{{forloop.index}}" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingOne">
                             <div class="panel-body">
-                                <p>{{ faq.answer }}</p>
+                                <p>{{ faq.answer | markdownify  }}</p>
                             </div>
                         </div>
                     </div>

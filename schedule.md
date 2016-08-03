@@ -4,4 +4,4 @@ weight: 3
 layout: page
 ---
 
-More details coming soon!
+Top-notch sessions for real developers from real developers.

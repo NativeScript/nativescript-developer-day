@@ -2,5 +2,7 @@
     answer: "The conference day is $35. To attend both the conference and pre-conference workshop day, the cost is $70."
 -   question: "What's included in my ticket?"
     answer: "The conference day ticket includes access to the full day of sessions, lunch and a post-conference social event. The 2-day ticket includes access to the pre-conference workshop, the full day of conference sessions, lunch both days and a post-conference social event."
+-   question: "Where should I stay?"
+    answer: "There is no official conference hotel, however there are a number of hotels in the area. Speakers and company guests will be staying at the [Doubletree Hotel Downtown Boston](mailto:http://doubletree3.hilton.com/en/hotels/massachusetts/doubletree-by-hilton-hotel-boston-downtown-BOSCODT/index.html). Also nearby are the [Westin Copley Place](http://www.westincopleyplaceboston.com/) and the [Park Plaza](http://www.bostonparkplaza.com/). There are also budget options nearby, including AirBnB."
 -   question: "I have a question or concern, who should I contact?"
     answer: "You can contact Brian Rinaldi at brian.rinaldi@telerik.com"
