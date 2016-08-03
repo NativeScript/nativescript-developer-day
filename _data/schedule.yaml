@@ -30,7 +30,7 @@
         start_time: "8:00am"
     -   title: "NativeScript: Past, Present and Future (Opening Keynote)"
         start_time: "9:00am"
-        description: "Four years ago some engineers at Telerik begin working on a mobile framework that could help turn web developers into mobile developers. Not mobile web developers or hybrid developers, but true native mobile developers. Over two years later, that framework was released as the open source project called NativeScript.\n\nWe've come a long way since then, but it's really just the beginning. Let's take a look together at the true story of why we built NativeScript, an exciting look at our future plans, as well as some exclusive NativeScript announcements."
+        description: "Three years ago some engineers at Telerik begin working on a mobile framework that could help turn web developers into mobile developers. Not mobile web developers or hybrid developers, but true native mobile developers. Over two years later, that framework was released as the open source project called NativeScript.\n\nWe've come a long way since then, but it's really just the beginning. Let's take a look together at the true story of why we built NativeScript, an exciting look at our future plans, as well as some exclusive NativeScript announcements."
         speakers: 
             - name: "Burke Holland"
             - name: "Todd Anglin"
