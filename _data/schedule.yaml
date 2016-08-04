@@ -66,7 +66,7 @@
             - name: "Alex Ziskind"
     -   title: "Going into Battle with NativeScript Angular: A Real World Case Study"
         start_time: "2:00pm"
-        description: "A fun app idea sparked prompted me to go into battle armed with nothing more than NativeScript Angular. I was pleasantly surprised at how smooth the development experience was but there were a lot of lessons learned. We’ll discuss some takeaways from this real world app development."
+        description: "A couple months ago, an app idea prompted me to go into battle with nothing more than NativeScript Angular. Having built several NativeScript plugins in the Spring, this was a perfect time to put them (and a number of other community built plugins - 12 total!) through their paces in a production environment. Setting aside any fear of working with beta software, I was pleasantly surprised at how smooth and *fun* the dev experience was. That's not to say there weren't a few stumbles along the way. I'd like to share a few lessons from this real world app development."
         speakers: 
             - name: "Nathan Walker"
     -   title: "Using Redux for Building Applications with NativeScript Angular"
