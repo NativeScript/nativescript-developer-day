@@ -442,8 +442,33 @@ ul li {
 .registration{
     background-color: #f8f8f8;
 }
-.registration .section-title{
-    text-align: center;
+
+.registration-container {
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .registration-container {
+        padding-bottom: 40%;
+    }
+}
+@media (max-width: 625px) {
+    .registration-container {
+        padding-bottom: 50%;
+    }
+}
+
+.registration-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /* 
  * 6.5 Section: Contribution

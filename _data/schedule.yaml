@@ -97,4 +97,7 @@
         speakers:
             - name: "Raymond Camden"
     -   title: "Social Event"
-        start_time: "5:00pm-7:00pm"
+        start_time: "5:00pm-6:00pm"
+    -   title: "Mobile Tea: Beats and Code"
+        start_time: "6:00pm-9:00pm"
+        description: "{N} Developer Day, in partnership with Mobile Tea Boston, will host a special Mobile Tea event with speakers, food, drinks and a DJ. For a full list of sessions, please visit the [Mobile Tea event listing](http://www.meetup.com/mobiletea/events/233772912/) at http://www.meetup.com/mobiletea/events/233772912/"
