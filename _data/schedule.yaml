@@ -12,6 +12,7 @@
         speakers: 
             - name: "Jen Looper"
             - name: "TJ VanToll"
+            - name: "Sebastian Witalec"
     -   title: "Lunch"
         start_time: "12:00pm"
     -   title: "Building Native Apps With NativeScript and Angular 2 (Part 2)"
@@ -20,7 +21,8 @@
         speakers: 
             - name: "Jen Looper"
             - name: "TJ VanToll"
-    -   title: "Pokéwalk"
+            - name: "Sebastian Witalec"
+    -   title: "Historical Walking Tour + Pokéwalk"
         start_time: "5:00pm"
         description: "See historic Boston while collecting Pokémon with other speakers and attendees."
 -   header: "Day Two"
