@@ -5,5 +5,5 @@ layout: page
 ---
 
 <address>
-    <p>Boston<br> Calderwood Pavilion<br> 527 Tremont Street<br> Boston MA </p>
+    <p>New York City<br> Scandanavia House<br> 58 Park Ave<br> New York, NY </p>
 </address>

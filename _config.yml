@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: NativeScript Developer Day 2016
-email: brian.rinaldi@telerik.com
-event_dates: September 19-20, 2016
-event_city: Boston
-event_tagline: One Day—NativeScript. Angular. JavaScript. Mobile.
+title: NativeScript Developer Day 2017
+email: brian.rinaldi@progress.com
+event_dates: September 18-19, 2017
+event_city: New York City
+event_tagline: NativeScript. Angular. JavaScript. Mobile.
 description: > # this means to ignore newlines until "baseurl:"
-  The first-ever community event focused exclusively on mobile development
-  with JavaScript using the open source NativeScript framework.
+  The official NativeScript community event returns. Learn to build
+  mobile apps with JavaScript using the open source framework.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://developerday.nativescript.org" # the base hostname & protocol for your site
 twitter_username: nativescript

@@ -4,4 +4,4 @@ weight: 2
 layout: page
 ---
 
-13 fantastic speakers from the NativeScript community with real-world development experience.
+We are in the process of finalizing our schedule. **More speakers will be announced soon!**

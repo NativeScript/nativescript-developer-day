@@ -27,9 +27,9 @@ $(document).ready(function () {
 // Countdown jquery
 
 $(function () {
-    var day = 19,
+    var day = 18,
         month = 9,
-        year = 2016;
+        year = 2017;
     var austDay = new Date(year, month - 1, day);
     $('#defaultCountdown').countdown({until: austDay});
     $('#year').text(austDay.getFullYear());
