@@ -41,11 +41,39 @@
         description: "TBD"
         speakers: 
             - name: "TBD"
-    -   title: "Session - Track 2 (workshop)"
+    -   title: "Master TypeScript & ES6"
         start_time: "3:00pm-4:30pm"
-        description: "TBD"
+        description: "In this course, you will learn:
+
+- Arrow functions and let keyword;
+
+- Block scopes
+
+- Classes and inheritance;
+
+- Default & Rest parameters Spread operators
+
+- Destructured assignment
+
+- Generators; Iterators; Maps
+
+- Promises
+
+- Sets
+
+- Template Literals
+
+- Type Annotations & Assertions
+
+- Generics
+
+- Constructor Parameters
+
+- Interfaces
+
+- Enums"
         speakers: 
-            - name: "TBD"
+            - name: "Daniel Zen"
     -   title: "Social Event"
         start_time: "5:00pm-6:00pm"
 -   header: "Day Two"
