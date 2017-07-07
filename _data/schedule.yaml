@@ -80,8 +80,10 @@
 -   header: "Day Two"
     date: "September 19, 2017"
     details:
-    -   title: "Registration Opens"
+    -   title: "Venue Opens"
         start_time: "8:30am"
+    -   title: "Opening Remarks"
+        start_time: "9:15am"
     -   title: "Session 1"
         start_time: "9:30am"
         description: "Engineering"
