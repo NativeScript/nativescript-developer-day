@@ -1,4 +1,4 @@
--   header: "Day One"
+-   header: "Day One - Keynote and Deep Dives"
     date: "September 18, 2017"
     details:
     -   title: "Registration Opens"
@@ -9,13 +9,13 @@
             Details coming soon.
         speakers: 
             - name: "Todd Anglin"
-    -   title: "Session - Track 1(workshop)"
+    -   title: "Session - Track 1"
         start_time: "10:30am–12:00pm"
         description: >
             Details coming soon.
         speakers: 
             - name: "Rob Lauer"
-    -   title: "Session - Track 2 (workshop)"
+    -   title: "Session - Track 2"
         start_time: "10:30am–12:00pm"
         description: >
             Details coming soon.
@@ -24,7 +24,7 @@
             - name: "Jen Looper"
     -   title: "Lunch"
         start_time: "12:00pm"
-    -   title: "Session - Track 1 (workshop)"
+    -   title: "Session - Track 1"
         start_time: "1:00pm-2:30pm"
         description: "TBD"
         speakers: 
@@ -37,7 +37,7 @@
             - name: "Rob Laverty"
     -   title: "Break"
         start_time: "2:30pm-3:00pm"
-    -   title: "Session - Track 1 (workshop)"
+    -   title: "Session - Track 1"
         start_time: "3:00pm-4:30pm"
         description: "TBD"
         speakers: 
