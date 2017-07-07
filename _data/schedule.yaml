@@ -8,19 +8,20 @@
         description: >
             Details coming soon.
         speakers: 
-            - name: "TBD"
+            - name: "Todd Anglin"
     -   title: "Session - Track 1(workshop)"
         start_time: "10:30am–12:00pm"
         description: >
             Details coming soon.
         speakers: 
-            - name: "TBD"
+            - name: "Rob Lauer"
     -   title: "Session - Track 2 (workshop)"
         start_time: "10:30am–12:00pm"
         description: >
             Details coming soon.
         speakers: 
-            - name: "TBD"
+            - name: "TJ VanToll"
+            - name: "Jen Looper"
     -   title: "Lunch"
         start_time: "12:00pm"
     -   title: "Session - Track 1 (workshop)"
@@ -40,7 +41,7 @@
         start_time: "3:00pm-4:30pm"
         description: "TBD"
         speakers: 
-            - name: "TBD"
+            - name: "Sebastian Witalec"
     -   title: "Master TypeScript & ES6"
         start_time: "3:00pm-4:30pm"
         description: "In this course, you will learn:
@@ -90,7 +91,7 @@
         start_time: "10:00am"
         description: "TBD"
         speakers: 
-            - name: "TBD"
+            - name: "Nathan Walker"
     -   title: "Morning Break"
         start_time: "10:30am"
     -   title: "Fall in Love with Native APIs"
@@ -105,31 +106,31 @@
             - name: "Tracy Lee"
     -   title: "Session 5"
         start_time: "12:00pm"
-        description: "TBD"
+        description: "Nathanael Anderson"
         speakers: 
             - name: "TBD"
     -   title: "Lunch"
         start_time: "12:30pm"
     -   title: "Session 6"
         start_time: "1:30pm"
-        description: "TBD"
+        description: "Nic Raboy"
         speakers: 
             - name: "TBD"
     -   title: "Session 7"
         start_time: "2:00pm"
-        description: "TBD"
+        description: "Brad Martin"
         speakers: 
             - name: "TBD"
     -   title: "Afternoon Break"
         start_time: "2:30pm"
     -   title: "Session 8"
         start_time: "3:00pm"
-        description: "TBD"
+        description: "Alex Ziskind"
         speakers: 
             - name: "TBD"
     -   title: "Session 9"
         start_time: "3:30pm"
-        description: "TBD"
+        description: "Nic Raboy"
         speakers: 
             - name: "TBD"
     -   title: "Closing Keynote"
