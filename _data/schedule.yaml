@@ -113,9 +113,9 @@
             - name: "Nathanael Anderson"
     -   title: "Lunch"
         start_time: "12:30pm"
-    -   title: "Session 6"
+    -   title: "Native to Hybrid and Back Again"
         start_time: "1:30pm"
-        description: "TBD"
+        description: "There are many ways to develop mobile applications for your organization. You can use Java with the Android SDK to develop Android applications, Objective-C or Swift with Xcode for iOS applications, or you can adventure into the realm of cross-platform development using common web technologies like JavaScript, Angular, and React. Not every solution to mobile application development is considered equal. Learn why I went from native development with Java to hybrid development with Ionic Framework and back to native development with NativeScript through examples and personal stories."
         speakers: 
             - name: "Nic Raboy"
     -   title: "Chrome DevTools in NativeScript"
