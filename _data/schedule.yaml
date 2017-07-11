@@ -84,7 +84,7 @@
         start_time: "8:30am"
     -   title: "Opening Remarks"
         start_time: "9:15am"
-    -   title: "Session 1"
+    -   title: "Optimizing startup time of NativeScript Angular apps"
         start_time: "9:30am"
         description: "Engineering"
         speakers: 
@@ -115,12 +115,12 @@
         start_time: "12:30pm"
     -   title: "Session 6"
         start_time: "1:30pm"
-        description: "Engineering"
+        description: "TBD"
         speakers: 
             - name: "Nic Raboy"
-    -   title: "Session 7"
+    -   title: "Chrome DevTools in NativeScript"
         start_time: "2:00pm"
-        description: "Brad Martin"
+        description: "A look at debugging your application using the DevTools suite. We'll explore a buggy app, locate bugs and debug app thanks to Chrome DevTools."
         speakers: 
             - name: "TBD"
     -   title: "Afternoon Break"
@@ -130,7 +130,7 @@
         description: "TBD"
         speakers: 
             - name: "Alex Ziskind"
-    -   title: "Session 9"
+    -   title: "Testing in NativeScript and How to Benefit From It"
         start_time: "3:30pm"
         description: "Engineering"
         speakers: 
