@@ -39,9 +39,11 @@
             - name: "Rob Laverty"
     -   title: "Break"
         start_time: "2:30pm-3:00pm"
-    -   title: "Session - Track 1"
+    -   title: "Sharing Code Between Web and Native Apps"
         start_time: "3:00pm-4:30pm"
-        description: "TBD"
+        description: "NativeScript has opened up a whole new world to Angular developers: the ability to share code directly between your web and native iOS/Android applications. Which is awesome! But, just because you can share code across multiple platforms, doesn’t mean that you necessarily should.
+        
+        In this talk we’ll first take a look at what NativeScript makes possible from a code sharing perspective. We’ll build a few Angular components and use them both in the browser and on mobile devices. Then we’ll take a step back and look at the same code from a pragmatic, maintenance-oriented perspective. Come for practical tips & tricks on sharing code across multiple development environments."
         speakers: 
             - name: "Sebastian Witalec"
     -   title: "Master TypeScript & ES6"
