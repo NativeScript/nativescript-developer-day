@@ -30,7 +30,9 @@
                     <ul class="social-block">
                         <li><a href="https://twitter.com/{{speaker.twitter}}"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="https://github.com/{{speaker.github}}"><i class="ion-social-github"></i></a></li>
+                    {% if speaker.website %}
                         <li><a href="{{speaker.website}}"><i class="ion-earth"></i></a></li>
+                    {% endif %}
                     </ul>
 
                 </div><!-- /.speaker -->
