@@ -151,7 +151,7 @@ Topics include:
         start_time: "3:30pm"
         description: "Engineering"
         speakers: 
-            - name: "TBD"
+            - name: "Vasil Chimev"
     -   title: "AMA - NativeScript Panel"
         start_time: "4:00pm"
         description: "Representatives from the NativeScript team will take your questions."
