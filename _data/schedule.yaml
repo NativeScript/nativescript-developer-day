@@ -90,9 +90,22 @@
         start_time: "9:15am"
     -   title: "Optimizing startup time of NativeScript Angular apps"
         start_time: "9:30am"
-        description: "Engineering"
+        description: "Performance is a dreaded part of app development. This is particularly true for mobile apps where the expectations are high. We'll explore a few methods for improving startup time for NativeScript Angular projects. Live demo included. 
+Topics include:
+
+- Lazy Loading
+
+- Webpack
+
+- AoT compilation
+
+- Minification and tree-shaking
+
+- V8 heap snapshots
+
+- Profiling startup time"
         speakers: 
-            - name: "TBD"
+            - name: "Stanimira Vlaeva"
     -   title: "Session 2"
         start_time: "10:00am"
         description: "TBD"
