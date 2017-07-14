@@ -9,18 +9,26 @@
             Details coming soon.
         speakers: 
             - name: "Todd Anglin"
-    -   title: "Session - Track 1"
-        start_time: "10:30am–12:00pm"
-        description: >
-            Details coming soon.
+    -   title: "Getting Started with {N} Part 1—Learning the Basics"
+        start_time: "10:30am–11:10pm"
+        description: "So you want to build native mobile apps for iOS and Android, with JavaScript? You've certainly come to the right place. In this talk, we will cover how we got to where we are today with NativeScript, take a brief look at some competing frameworks, and show you how to build a simple NativeScript app from scratch. You'll learn how to use the skills of a web developer (JavaScript, CSS, and a tag-based markup language) to create truly native cross-platform apps from one codebase."
         speakers: 
             - name: "Rob Lauer"
-    -   title: "Session - Track 2"
-        start_time: "10:30am–12:00pm"
-        description: >
-            Details coming soon.
+    -   title: "UI for NativeScript—Beyond the Basics"
+        start_time: "10:30am–11:10pm"
+        description: "UI for NativeScript is a set of free and premium user interface components for building powerful interactions in your apps. In this session you’ll learn what the components are, how they work, and some of the fun things you can do with them in your apps. Come to learn more about building charts, graphs, forms, and more 📊 "
         speakers: 
             - name: "TJ VanToll"
+    -   title: "Getting Started with {N} Part 2—Building with the {N} CLI and Visual Tooling"
+        start_time: "11:20am–12:00pm"
+        description: "Whether you are a die-hard command-line developer or prefer the ease of point-and-click visual tooling solutions, NativeScript has your back. In this session you'll learn how to use the most important features of the NativeScript CLI. We will also dive into some new visual tooling offerings and see how they can supplement (and sometimes replace) functionality provided by the CLI."
+        speakers: 
+            - name: "Rob Lauer"
+            - name: "Sebastian Witalec"
+    -   title: "NativeScript Everywhere: Integrating your Apps with Hardware"
+        start_time: "11:20am–12:00pm"
+        description: "NativeScript apps are a solid win for iOS and Android devices but they can do more than simply live happily on your phone. They can be used to reach out and touch the physical world, via interesting hardware integrations! In this session, we’ll move beyond standard bluetooth implementations for your apps, looking at some large-scale use cases for NativeScript apps with hardware integrations. How can you bring the physical world a little closer to your mobile apps? Let’s tinker! 🔧"
+        speakers: 
             - name: "Jen Looper"
     -   title: "Lunch"
         start_time: "12:00pm"
@@ -106,9 +114,9 @@ Topics include:
 - Profiling startup time"
         speakers: 
             - name: "Stanimira Vlaeva"
-    -   title: "Session 2"
+    -   title: "Mastering NativeScript Layouts"
         start_time: "10:00am"
-        description: "TBD"
+        description: "*How to Recreate Any Mobile Design with Optimal Performance*"
         speakers: 
             - name: "Brad Martin"
     -   title: "Morning Break"
