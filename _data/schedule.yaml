@@ -116,7 +116,8 @@ Topics include:
             - name: "Stanimira Vlaeva"
     -   title: "Mastering NativeScript Layouts"
         start_time: "10:00am"
-        description: "*How to Recreate Any Mobile Design with Optimal Performance*"
+        description: "*How to Recreate Any Mobile Design with Optimal Performance*<br><br>
+        The core layouts for NativeScript are powerful and mobile UI layouts can be challenging. I've been doing NS layouts for a long time and have struggled to master the concepts and now you don't have to. In this session you'll learn some tips & tricks as we recreate popular mobile apps like Facebook and Twitter using NativeScript layouts."
         speakers: 
             - name: "Brad Martin"
     -   title: "Morning Break"
@@ -160,6 +161,7 @@ Topics include:
         description: "Engineering"
         speakers: 
             - name: "Vasil Chimev"
+            - name: "Svetoslav Tsenov"
     -   title: "AMA - NativeScript Panel"
         start_time: "4:00pm"
         description: "Representatives from the NativeScript team will take your questions."
