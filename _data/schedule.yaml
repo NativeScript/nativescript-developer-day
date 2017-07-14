@@ -131,9 +131,9 @@ Topics include:
         description: "Learn the importance of RxJS, simple implementation, and how to think reactively. Why is reactive programming the way of the future? What is in store with TC39 specs and reactive programming? Demonstrations of RxJS in nativescript and Angular wrapping APIs in Observables and how to easily refactor your code to use RxJS."
         speakers: 
             - name: "Tracy Lee"
-    -   title: "Session 5"
+    -   title: "Performance from the trenches"
         start_time: "12:00pm"
-        description: "TBD"
+        description: "Tips and techniques on performance."
         speakers: 
             - name: "Nathanael Anderson"
     -   title: "Lunch"
