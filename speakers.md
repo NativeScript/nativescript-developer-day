@@ -4,4 +4,4 @@ weight: 2
 layout: page
 ---
 
-We are in the process of finalizing our schedule. **More speakers will be announced soon!**
+The best and the brightest from around the globe will be speaking at NativeScript Developer Day!
