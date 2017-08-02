@@ -4,18 +4,18 @@
     -   title: "Registration Opens"
         start_time: "8:30am"
     -   title: "Opening Keynote"
-        start_time: "9:30am–10:30pm"
+        start_time: "9:30am–10:30am"
         description: >
             Details coming soon.
         speakers: 
             - name: "Todd Anglin"
     -   title: "Getting Started with {N} Part 1—Learning the Basics"
-        start_time: "10:30am–11:10pm"
+        start_time: "10:30am–11:10am"
         description: "So you want to build native mobile apps for iOS and Android, with JavaScript? You've certainly come to the right place. In this talk, we will cover how we got to where we are today with NativeScript, take a brief look at some competing frameworks, and show you how to build a simple NativeScript app from scratch. You'll learn how to use the skills of a web developer (JavaScript, CSS, and a tag-based markup language) to create truly native cross-platform apps from one codebase."
         speakers: 
             - name: "Rob Lauer"
     -   title: "UI for NativeScript—Beyond the Basics"
-        start_time: "10:30am–11:10pm"
+        start_time: "10:30am–11:10am"
         description: "UI for NativeScript is a set of free and premium user interface components for building powerful interactions in your apps. In this session you’ll learn what the components are, how they work, and some of the fun things you can do with them in your apps. Come to learn more about building charts, graphs, forms, and more 📊 "
         speakers: 
             - name: "TJ VanToll"
@@ -127,7 +127,7 @@ Topics include:
         description: "The NativeScript APIs are awesome, but there is a lot of power in learning and using the Native iOS and Android APIs. One of the coolest parts of NativeScript is that it exposes all of this awesomeness in JavaScript without any plugins or additional interfaces. In this talk, Rob will go over his favorite tips and tricks."
         speakers:
             - name: "Rob Laverty"
-    -   title: "The Power of RxJS (in Nativescript and Angular )"
+    -   title: "The Power of RxJS (in Nativescript and Angular)"
         start_time: "11:30am"
         description: "Learn the importance of RxJS, simple implementation, and how to think reactively. Why is reactive programming the way of the future? What is in store with TC39 specs and reactive programming? Demonstrations of RxJS in nativescript and Angular wrapping APIs in Observables and how to easily refactor your code to use RxJS."
         speakers: 
