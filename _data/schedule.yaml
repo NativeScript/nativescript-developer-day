@@ -151,9 +151,9 @@ Topics include:
             - name: "Peter Kanev"
     -   title: "Afternoon Break"
         start_time: "2:30pm"
-    -   title: "Session 8"
+    -   title: "The Art of Mobile App Interaction"
         start_time: "3:00pm"
-        description: "TBD"
+        description: "Most mobile application development effort is focused on getting the business case solved as quickly and efficiently as possible. User interaction is often overlooked and any animations are considered superfluous. In this session, Alex will share with you guidelines on user interaction, how they should be baked right into your mobile application, and provide examples to do just that, built the NativeScript way. Considering a user’s interaction with your application should no longer be an afterthought."
         speakers: 
             - name: "Alex Ziskind"
     -   title: "Introduction to Mobile UI Test Automation"
