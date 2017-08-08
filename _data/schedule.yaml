@@ -25,9 +25,9 @@
         speakers: 
             - name: "Rob Lauer"
             - name: "Sebastian Witalec"
-    -   title: "NativeScript Everywhere: Integrating your Apps with Hardware"
+    -   title: "3 Ways to Make Your App Smarter"
         start_time: "11:20am–12:00pm"
-        description: "NativeScript apps are a solid win for iOS and Android devices but they can do more than simply live happily on your phone. They can be used to reach out and touch the physical world, via interesting hardware integrations! In this session, we’ll move beyond standard bluetooth implementations for your apps, looking at some large-scale use cases for NativeScript apps with hardware integrations. How can you bring the physical world a little closer to your mobile apps? Let’s tinker! 🔧"
+        description: "ou’ve written a great NativeScript app that is fast and looks pretty. But it needs something a little extra to get noticed in the stores. Why not go the extra mile and send your app back to school? In this session, you’ll learn about three ways to make your app a little ‘smarter’:  able to perceive its physical surroundings and able to leverage its data more efficiently. We’ll take the QuickNoms recipe app and enhance it with a sensor integration and two methods of adding Machine Learning to take a simple recipe app and turn it into something much more interesting."
         speakers: 
             - name: "Jen Looper"
     -   title: "Lunch"
