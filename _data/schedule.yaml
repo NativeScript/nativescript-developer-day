@@ -27,7 +27,7 @@
             - name: "Sebastian Witalec"
     -   title: "3 Ways to Make Your App Smarter"
         start_time: "11:20am–12:00pm"
-        description: "ou’ve written a great NativeScript app that is fast and looks pretty. But it needs something a little extra to get noticed in the stores. Why not go the extra mile and send your app back to school? In this session, you’ll learn about three ways to make your app a little ‘smarter’:  able to perceive its physical surroundings and able to leverage its data more efficiently. We’ll take the QuickNoms recipe app and enhance it with a sensor integration and two methods of adding Machine Learning to take a simple recipe app and turn it into something much more interesting."
+        description: "You’ve written a great NativeScript app that is fast and looks pretty. But it needs something a little extra to get noticed in the stores. Why not go the extra mile and send your app back to school? In this session, you’ll learn about three ways to make your app a little ‘smarter’:  able to perceive its physical surroundings and able to leverage its data more efficiently. We’ll take the QuickNoms recipe app and enhance it with a sensor integration and two methods of adding Machine Learning to take a simple recipe app and turn it into something much more interesting."
         speakers: 
             - name: "Jen Looper"
     -   title: "Lunch"
