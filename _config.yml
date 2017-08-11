@@ -12,8 +12,7 @@ event_dates: September 18-19, 2017
 event_city: New York City
 event_tagline: JavaScript. Mobile. Native.
 description: > # this means to ignore newlines until "baseurl:"
-  The official NativeScript community event returns. Learn to build
-  mobile apps with JavaScript using the open source framework.
+  The official NativeScript community event returns. Learn to build truly native mobile apps with Angular, TypeScript or JavaScript.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://developerday.nativescript.org" # the base hostname & protocol for your site
 twitter_username: nativescript
