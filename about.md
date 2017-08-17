@@ -7,7 +7,7 @@ layout: page
 {:.section-title}
 ### The Official Event for NativeScript Developers
 
-NativeScript Developer Day is an annual event dedicated to NativeScript developers. This year the event will take place at the Scandinavia House in New York City. Expect a full two days of learning about NativeScript and mobile development best practices from the best and brightest in the NativeScript community. Whether you’re a beginner curious about NativeScript or a seasoned mobile developer, NativeScript Developer Day has speakers and sessions for you.
+NativeScript Developer Day is an annual event dedicated to building native mobile apps with JavaScript, TypeScript and/or Angular using the free and open-source NativeScript platform. This year the event will take place at the Scandinavia House in New York City. Expect a full two days of learning about NativeScript and mobile development best practices from the best and brightest in the NativeScript community. Whether you’re a beginner curious about NativeScript or a seasoned mobile developer, NativeScript Developer Day has speakers and sessions for you.
 
 ### What is NativeScript?
 
