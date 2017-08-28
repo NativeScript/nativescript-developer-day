@@ -14,9 +14,9 @@
         description: "So you want to build native mobile apps for iOS and Android, with JavaScript? You've certainly come to the right place. In this talk, we will cover how we got to where we are today with NativeScript, take a brief look at some competing frameworks, and show you how to build a simple NativeScript app from scratch. You'll learn how to use the skills of a web developer (JavaScript, CSS, and a tag-based markup language) to create truly native cross-platform apps from one codebase."
         speakers: 
             - name: "Rob Lauer"
-    -   title: "UI for NativeScript—Beyond the Basics"
+    -   title: "NativeScript UI—Beyond the Basics"
         start_time: "10:30am–11:10am"
-        description: "UI for NativeScript is a set of free and premium user interface components for building powerful interactions in your apps. In this session you’ll learn what the components are, how they work, and some of the fun things you can do with them in your apps. Come to learn more about building charts, graphs, forms, and more 📊 "
+        description: "NativeScript UI is a set of free and premium user interface components for building powerful interactions in your apps. In this session you’ll learn what the components are, how they work, and some of the fun things you can do with them in your apps. Come to learn more about building charts, graphs, forms, and more 📊 "
         speakers: 
             - name: "TJ VanToll"
     -   title: "Getting Started with {N} Part 2—Building with the {N} CLI and Visual Tooling"
