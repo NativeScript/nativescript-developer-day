@@ -9,18 +9,22 @@
             Details coming soon.
         speakers: 
             - name: "Todd Anglin"
+        location: "Victor Borge Hall"
     -   title: "Getting Started with {N} Part 1—Learning the Basics"
         start_time: "10:30am–11:10am"
         description: "So you want to build native mobile apps for iOS and Android, with JavaScript? You've certainly come to the right place. In this talk, we will cover how we got to where we are today with NativeScript, take a brief look at some competing frameworks, and show you how to build a simple NativeScript app from scratch. You'll learn how to use the skills of a web developer (JavaScript, CSS, and a tag-based markup language) to create truly native cross-platform apps from one codebase."
         speakers: 
             - name: "Rob Lauer"
+        location: "Victor Borge Hall"
     -   title: "NativeScript UI—Beyond the Basics"
         start_time: "10:30am–11:10am"
         description: "NativeScript UI is a set of free and premium user interface components for building powerful interactions in your apps. In this session you’ll learn what the components are, how they work, and some of the fun things you can do with them in your apps. Come to learn more about building charts, graphs, forms, and more 📊 "
         speakers: 
             - name: "TJ VanToll"
+        location: "Volvo Hall"
     -   title: "Getting Started with {N} Part 2—Building with the {N} CLI and Visual Tooling"
         start_time: "11:20am–12:00pm"
+        location: "Victor Borge Hall"
         description: "Whether you are a die-hard command-line developer or prefer the ease of point-and-click visual tooling solutions, NativeScript has your back. In this session you'll learn how to use the most important features of the NativeScript CLI. We will also dive into some new visual tooling offerings and see how they can supplement (and sometimes replace) functionality provided by the CLI."
         speakers: 
             - name: "Rob Lauer"
@@ -30,6 +34,7 @@
         description: "You’ve written a great NativeScript app that is fast and looks pretty. But it needs something a little extra to get noticed in the stores. Why not go the extra mile and send your app back to school? In this session, you’ll learn about three ways to make your app a little ‘smarter’:  able to perceive its physical surroundings and able to leverage its data more efficiently. We’ll take the QuickNoms recipe app and enhance it with a sensor integration and two methods of adding Machine Learning to take a simple recipe app and turn it into something much more interesting."
         speakers: 
             - name: "Jen Looper"
+        location: "Volvo Hall"
     -   title: "Lunch"
         start_time: "12:00pm"
     -   title: "NativeScript Plugins: A Deep Dive"
@@ -39,12 +44,14 @@
             - name: "Nathan Walker"
             - name: "Nathanael Anderson"
             - name: "Brad Martin"
+        location: "Victor Borge Hall"
     -   title: "Deep Dive Intro to Angular"
         start_time: "1:00pm-2:30pm"
         description: "Whether you are an experienced Angular veteran or you are a complete newbie, it helps to hear about mistakes made and lessons learned from other developers. Fortunately, Jeff has made every mistake in the book. In this talk, Jeff will go over the high level concepts involved with Angular (ex. TypeScript, DI, AoT, etc.), but will also provide his detailed opinions on important best practices that may help you avoid the same mistakes as you build some wicked awesome Angular apps."
         speakers: 
             - name: "Jeff Whelpley"
             - name: "Rob Laverty"
+        location: "Volvo Hall"
     -   title: "Break"
         start_time: "2:30pm-3:00pm"
     -   title: "Sharing Code Between Web and Native Apps"
@@ -54,6 +61,7 @@
         In this talk we’ll first take a look at what NativeScript makes possible from a code sharing perspective. We’ll build a few Angular components and use them both in the browser and on mobile devices. Then we’ll take a step back and look at the same code from a pragmatic, maintenance-oriented perspective. Come for practical tips & tricks on sharing code across multiple development environments."
         speakers: 
             - name: "Sebastian Witalec"
+        location: "Victor Borge Hall"
     -   title: "Master TypeScript & ES6"
         start_time: "3:00pm-4:30pm"
         description: "In this course, you will learn:
@@ -87,15 +95,15 @@
 - Enums"
         speakers: 
             - name: "Daniel Zen"
+        location: "Volvo Hall"
     -   title: "Social Event"
         start_time: "5:00pm-7:00pm"
+        location: "Volvo Hall"
 -   header: "Day Two"
     date: "September 19, 2017"
     details:
     -   title: "Venue Opens"
         start_time: "8:30am"
-    -   title: "Opening Remarks"
-        start_time: "9:15am"
     -   title: "Optimizing startup time of NativeScript Angular apps"
         start_time: "9:30am"
         description: "Performance is a dreaded part of app development. This is particularly true for mobile apps where the expectations are high. We'll explore a few methods for improving startup time for NativeScript Angular projects. Live demo included. 
@@ -114,12 +122,14 @@ Topics include:
 - Profiling startup time"
         speakers: 
             - name: "Stanimira Vlaeva"
+        location: "Victor Borge Hall"
     -   title: "Mastering NativeScript Layouts"
         start_time: "10:00am"
         description: "*How to Recreate Any Mobile Design with Optimal Performance*<br><br>
         The core layouts for NativeScript are powerful and mobile UI layouts can be challenging. I've been doing NS layouts for a long time and have struggled to master the concepts and now you don't have to. In this session you'll learn some tips & tricks as we recreate popular mobile apps like Facebook and Twitter using NativeScript layouts."
         speakers: 
             - name: "Brad Martin"
+        location: "Victor Borge Hall"
     -   title: "Morning Break"
         start_time: "10:30am"
     -   title: "Fall in Love with Native APIs"
@@ -127,16 +137,19 @@ Topics include:
         description: "The NativeScript APIs are awesome, but there is a lot of power in learning and using the Native iOS and Android APIs. One of the coolest parts of NativeScript is that it exposes all of this awesomeness in JavaScript without any plugins or additional interfaces. In this talk, Rob will go over his favorite tips and tricks."
         speakers:
             - name: "Rob Laverty"
+        location: "Victor Borge Hall"
     -   title: "The Power of RxJS (in Nativescript and Angular)"
         start_time: "11:30am"
         description: "Learn the importance of RxJS, simple implementation, and how to think reactively. Why is reactive programming the way of the future? What is in store with TC39 specs and reactive programming? Demonstrations of RxJS in nativescript and Angular wrapping APIs in Observables and how to easily refactor your code to use RxJS."
         speakers: 
             - name: "Tracy Lee"
+        location: "Victor Borge Hall"
     -   title: "Performance from the trenches"
         start_time: "12:00pm"
         description: "Tips and techniques on performance."
         speakers: 
             - name: "Nathanael Anderson"
+        location: "Victor Borge Hall"
     -   title: "Lunch"
         start_time: "12:30pm"
     -   title: "Native to Hybrid and Back Again"
@@ -144,11 +157,13 @@ Topics include:
         description: "There are many ways to develop mobile applications for your organization. You can use Java with the Android SDK to develop Android applications, Objective-C or Swift with Xcode for iOS applications, or you can adventure into the realm of cross-platform development using common web technologies like JavaScript, Angular, and React. Not every solution to mobile application development is considered equal. Learn why I went from native development with Java to hybrid development with Ionic Framework and back to native development with NativeScript through examples and personal stories."
         speakers: 
             - name: "Nic Raboy"
+        location: "Victor Borge Hall"
     -   title: "Chrome DevTools in NativeScript"
         start_time: "2:00pm"
         description: "Whether you are a seasoned developer or a rookie, you'll eventually stumble upon your application acting strangely. But you are a web developer, you are used to console.logging variables until the source of the problem became evident. What if there was an easier, and more efficient way to get there? We'll explore a buggy app, locate bugs, and debug it, thanks to Chrome DevTools."
         speakers: 
             - name: "Peter Kanev"
+        location: "Victor Borge Hall"
     -   title: "Afternoon Break"
         start_time: "2:30pm"
     -   title: "The Art of Mobile App Interaction"
@@ -156,15 +171,18 @@ Topics include:
         description: "Most mobile application development effort is focused on getting the business case solved as quickly and efficiently as possible. User interaction is often overlooked and any animations are considered superfluous. In this session, Alex will share with you guidelines on user interaction, how they should be baked right into your mobile application, and provide examples to do just that, built the NativeScript way. Considering a user’s interaction with your application should no longer be an afterthought."
         speakers: 
             - name: "Alex Ziskind"
+        location: "Victor Borge Hall"
     -   title: "Introduction to Mobile UI Test Automation"
         start_time: "3:30pm"
         description: "Mobile test automation is hard, but, in many cases, functional UI testing is inevitable for a mobile application. In this session we'll learn how to easily create functional UI tests with a single code base for both Android and iOS using the nativescript-dev-appium plugin in JavaScript. In addition, we're going to shed the light on how the core team tests the NativeScript framework and details on the open source functional testing framework we develop, maintain and use for guaranteeing quality of the NativeScript."
         speakers: 
             - name: "Vasil Chimev"
             - name: "Svetoslav Tsenov"
+        location: "Victor Borge Hall"
     -   title: "AMA - NativeScript Panel"
         start_time: "4:00pm"
         description: "Representatives from the NativeScript team will take your questions."
         speakers: 
             - name: "Todd Anglin"
             - name: "TJ VanToll"
+        location: "Victor Borge Hall"

@@ -39,7 +39,7 @@
                                 {% endfor %}
                             </div>
                             {% endif %}
-                            <div class="time"><span class="ion-clock"></span> {{ session.start_time }}</div>
+                            <div class="time"><span class="ion-clock"></span> {{ session.start_time }}{% if session.description  %}<br><span style="color:#999;font-size:.85em;">Room: {{ session.location }}</span>{% endif %}</div>
                             <h4 class="panel-title">
                                 {% if session.description  %}
                                     <div class="full-width">
