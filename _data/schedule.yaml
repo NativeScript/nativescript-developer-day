@@ -16,11 +16,11 @@
         speakers: 
             - name: "Rob Lauer"
         location: "Victor Borge Hall"
-    -   title: "NativeScript UI—Beyond the Basics"
+    -   title: "3 Ways to Make Your App Smarter"
         start_time: "10:30am–11:10am"
-        description: "NativeScript UI is a set of free and premium user interface components for building powerful interactions in your apps. In this session you’ll learn what the components are, how they work, and some of the fun things you can do with them in your apps. Come to learn more about building charts, graphs, forms, and more 📊 "
+        description: "You’ve written a great NativeScript app that is fast and looks pretty. But it needs something a little extra to get noticed in the stores. Why not go the extra mile and send your app back to school? In this session, you’ll learn about three ways to make your app a little ‘smarter’:  able to perceive its physical surroundings and able to leverage its data more efficiently. We’ll take the QuickNoms recipe app and enhance it with a sensor integration and two methods of adding Machine Learning to take a simple recipe app and turn it into something much more interesting."
         speakers: 
-            - name: "TJ VanToll"
+            - name: "Jen Looper"
         location: "Volvo Hall"
     -   title: "Getting Started with {N} Part 2—Building with the {N} CLI and Visual Tooling"
         start_time: "11:20am–12:00pm"
@@ -29,11 +29,11 @@
         speakers: 
             - name: "Rob Lauer"
             - name: "Sebastian Witalec"
-    -   title: "3 Ways to Make Your App Smarter"
+    -   title: "NativeScript UI—Beyond the Basics"
         start_time: "11:20am–12:00pm"
-        description: "You’ve written a great NativeScript app that is fast and looks pretty. But it needs something a little extra to get noticed in the stores. Why not go the extra mile and send your app back to school? In this session, you’ll learn about three ways to make your app a little ‘smarter’:  able to perceive its physical surroundings and able to leverage its data more efficiently. We’ll take the QuickNoms recipe app and enhance it with a sensor integration and two methods of adding Machine Learning to take a simple recipe app and turn it into something much more interesting."
+        description: "NativeScript UI is a set of free and premium user interface components for building powerful interactions in your apps. In this session you’ll learn what the components are, how they work, and some of the fun things you can do with them in your apps. Come to learn more about building charts, graphs, forms, and more 📊 "
         speakers: 
-            - name: "Jen Looper"
+            - name: "TJ VanToll"
         location: "Volvo Hall"
     -   title: "Lunch"
         start_time: "12:00pm"
